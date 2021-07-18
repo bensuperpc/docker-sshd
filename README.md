@@ -4,7 +4,7 @@
 
 [![Twitter](https://img.shields.io/twitter/follow/Bensuperpc?style=social)](https://img.shields.io/twitter/follow/Bensuperpc?style=social) [![Youtube](https://img.shields.io/youtube/channel/subscribers/UCJsQFFL7QW4LSX9eskq-9Yg?style=social)](https://img.shields.io/youtube/channel/subscribers/UCJsQFFL7QW4LSX9eskq-9Yg?style=social) 
 
-[![scripts](https://github.com/bensuperpc/docker-sshd/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/bensuperpc/docker-sshd/actions/workflows/main.yml)
+[![scripts](https://github.com/bensuperpc/docker-sshd/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/bensuperpc/docker-sshd/actions/workflows/main.yml) [![tagged-release](https://github.com/bensuperpc/docker-sshd/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/bensuperpc/docker-sshd/actions/workflows/release.yml) ![GitHub Release Date](https://img.shields.io/github/release-date/bensuperpc/docker-sshd)
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/bensuperpc/sshd) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/bensuperpc/sshd/latest)
 
