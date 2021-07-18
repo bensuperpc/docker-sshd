@@ -28,5 +28,7 @@ jobs:
         with:
           submodules: 'recursive'
           fetch-depth: 0
+      - name: "🛠️ logging to hub.docker"
+        run: docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASS }}
       - name: "🛠️ buid and push"
         run: make USER=bensuperpc push

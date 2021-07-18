@@ -1,4 +1,12 @@
 # SSHD
+### _SSHD and Rsync in docker_
+ [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-jeffs-keyboard.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
+
+[![Twitter](https://img.shields.io/twitter/follow/Bensuperpc?style=social)](https://img.shields.io/twitter/follow/Bensuperpc?style=social) [![Youtube](https://img.shields.io/youtube/channel/subscribers/UCJsQFFL7QW4LSX9eskq-9Yg?style=social)](https://img.shields.io/youtube/channel/subscribers/UCJsQFFL7QW4LSX9eskq-9Yg?style=social) 
+
+[![scripts](https://github.com/bensuperpc/docker-sshd/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/bensuperpc/docker-sshd/actions/workflows/main.yml)
+
+![Docker Pulls](https://img.shields.io/docker/pulls/bensuperpc/sshd) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/bensuperpc/sshd/latest)
 
 Minimal Alpine Linux Docker image with `sshd` exposed and `rsync` installed.
 
