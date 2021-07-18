@@ -1,0 +1,32 @@
+name: scripts
+
+on:
+  push:
+    branches:
+    - 'main'
+    - 'master'
+    - 'dev'
+    paths-ignore:
+      - '**/README.md'
+  pull_request:
+    branches:
+    - '*'
+  schedule:
+    - cron: '*/15 * * * *'  # every 7 days https://crontab.guru/#0_7_*_*_1
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: scripts
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    steps:
+      - name: "📥 Checkout Code"
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          fetch-depth: 0
+      - name: "🛠️ buid and push"
+        run: make USER=bensuperpc push
