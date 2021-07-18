@@ -9,8 +9,7 @@ RUN apk add --no-cache bash git openssh rsync augeas shadow rssh && \
     mkdir -p ~root/.ssh /etc/authorized_keys && chmod 700 ~root/.ssh/ && \
     augtool 'set /files/etc/ssh/sshd_config/AuthorizedKeysFile ".ssh/authorized_keys /etc/authorized_keys/%u"' && \
     echo -e "Port 22\n" >> /etc/ssh/sshd_config && \
-    cp -a /etc/ssh /etc/ssh.cache && \
-    rm -rf /var/cache/apk/*
+    cp -a /etc/ssh /etc/ssh.cache
 
 EXPOSE 22
 
